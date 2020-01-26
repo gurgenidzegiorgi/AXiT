@@ -1,0 +1,25 @@
+{
+  "name": "axit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurgenidzegiorgi/AXiT.git"
+  },
+  "keywords": [
+    "AXit"
+  ],
+  "author": "Giorgi Gurgenidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gurgenidzegiorgi/AXiT/issues"
+  },
+  "homepage": "https://github.com/gurgenidzegiorgi/AXiT#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
