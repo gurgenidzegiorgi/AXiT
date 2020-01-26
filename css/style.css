@@ -1,3 +1,6 @@
+.container {
+  padding: 0; }
+
 header {
   background-color: black; }
   header .div {
@@ -22,3 +25,63 @@ header {
         color: white;
         font-size: 20px;
         text-decoration: none; }
+
+.bg {
+  width: 100%;
+  height: 700px;
+  background-image: url(http://i.imgur.com/uE5j5Pb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .bg .h-AX {
+    font-size: 70px;
+    color: white; }
+    .bg .h-AX .iT {
+      color: #FF9B51; }
+  .bg .f-p {
+    font-size: 40px;
+    color: white;
+    padding: 0;
+    margin: 0; }
+  .bg .stick {
+    background-color: white;
+    width: 100px;
+    height: 2px;
+    margin: 40px 0; }
+  .bg .sec-p {
+    color: white; }
+  .bg .dawn {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background: none;
+    color: white;
+    border: solid; }
+
+.sec-bg-div {
+  background-color: white; }
+  .sec-bg-div .iT {
+    color: #FF9B51; }
+  .sec-bg-div .sec-bg-div-p {
+    color: black;
+    margin: 0;
+    background-color: #F5F5F5;
+    padding: 10px 35px;
+    margin-bottom: 30px; }
+  .sec-bg-div .f-form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px; }
+    .sec-bg-div .f-form .f-input {
+      margin-bottom: 30px;
+      border: none;
+      border-bottom: 1px solid grey;
+      padding-left: 10px;
+      width: 250px; }
+  .sec-bg-div input:focus {
+    outline: none; }
+  .sec-bg-div .get-started {
+    background-color: #FF9B51;
+    padding: 10px 50px;
+    border: none;
+    width: 100%;
+    color: white; }
