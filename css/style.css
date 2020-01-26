@@ -1,0 +1,24 @@
+header {
+  background-color: black; }
+  header .div {
+    padding: 0; }
+    header .div .AXiT {
+      color: white;
+      font-size: 40px;
+      text-decoration: none;
+      margin-right: 20px; }
+    header .div .iT {
+      color: #FF9B51; }
+    header .div nav {
+      list-style-type: none; }
+    header .div li {
+      text-decoration: none;
+      color: white;
+      font-size: 15px;
+      margin-right: 25px; }
+      header .div li:last-child {
+        margin-right: 0; }
+      header .div li .li {
+        color: white;
+        font-size: 20px;
+        text-decoration: none; }
