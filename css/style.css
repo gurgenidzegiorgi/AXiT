@@ -70,7 +70,7 @@ header {
   .sec-bg-div .f-form {
     display: flex;
     flex-direction: column;
-    margin: 10px 30px; }
+    align-items: center; }
     .sec-bg-div .f-form .f-input {
       margin-bottom: 30px;
       border: none;
@@ -83,5 +83,38 @@ header {
     background-color: #FF9B51;
     padding: 10px 50px;
     border: none;
-    width: 100%;
+    width: 300px;
     color: white; }
+
+.social-sect .social-h {
+  font-size: 40px;
+  margin: 0; }
+
+.social-sect .soc-img-div:last-child {
+  margin: 0; }
+
+.social-sect .soc-img-div .social-img {
+  height: 50px;
+  margin-right: 10px; }
+
+.tab-sect {
+  padding: 100px 0;
+  background-color: #F5F5F5; }
+  .tab-sect .tab-butt-div {
+    flex-direction: column; }
+    .tab-sect .tab-butt-div .tab-butt {
+      background-color: black;
+      color: white;
+      padding: 35px;
+      border: 1px solid grey; }
+  .tab-sect .tab-artc-div .tab-h {
+    margin-bottom: 30px; }
+  .tab-sect .tab-artc-div .tab-p {
+    margin-bottom: 30px; }
+  .tab-sect .tab-artc-div .orange-down {
+    background-color: #FF9B51;
+    padding: 10px 30px;
+    border: none;
+    color: white; }
+  .tab-sect .build {
+    width: 250px; }
