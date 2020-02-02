@@ -246,3 +246,82 @@ header{
         }
     }
 }
+.pricing-sect{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+    .pricing-box{
+        flex-direction: column;
+        .pricing-title-div{
+            flex-direction: column;
+            margin-bottom: 50px;
+            .title-stick{
+                width: 100px;
+                height: 2px;
+                background-color: #FF9B51;
+                margin: 20px 0;
+            }
+        }
+        .pricing-div{
+            .basic-div{
+                h6{
+                    background-color: #333333;
+                    padding: 10px 122px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    margin: 0;
+                }
+                .anoth-h{
+                    padding: 10px 114px;
+                }
+                .price-p{
+                    background-color: #333333;
+                    padding: 10px 100px;
+                    margin: 0;
+                    color: white;
+                    font-size: 30px;
+                    border-bottom: 5px solid #FF9B51;
+                    .zero{
+                        color: white;
+                        font-size: 70px;
+                    }
+                    .free{
+                        font-size:15px;
+                    }
+                }
+                .price-p-anoth{
+                    background-color: #333333;
+                    padding: 10px 100px;
+                    margin: 0;
+                    color: white;
+                    font-size: 30px;
+                    .zero{
+                        color: white;
+                        font-size: 70px;
+                    }
+                    .free{
+                        font-size:15px;
+                    }
+                }
+                .add-p{
+                    background-color: #FF9B51;
+                    padding: 5px 91px;
+                    color: white;
+                    margin: 0;
+                    font-size: 14px;
+                }
+                .basic-list-div{
+                    width: 100%;
+                    border-bottom: 1px solid #F5F5F5;
+                    display: flex;
+                    background-color: white;
+                    justify-content: center;
+                    padding: 5px 0;
+                    .basic-list{
+                        margin: 0;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+}

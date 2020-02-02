@@ -189,3 +189,64 @@ header {
             margin-right: 10px; }
         .awesome .new-d .object-div .design .object-title {
           margin: 20px 0; }
+
+.pricing-sect {
+  padding: 100px 0;
+  background-color: #F5F5F5; }
+  .pricing-sect .pricing-box {
+    flex-direction: column; }
+    .pricing-sect .pricing-box .pricing-title-div {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      .pricing-sect .pricing-box .pricing-title-div .title-stick {
+        width: 100px;
+        height: 2px;
+        background-color: #FF9B51;
+        margin: 20px 0; }
+    .pricing-sect .pricing-box .pricing-div .basic-div h6 {
+      background-color: #333333;
+      padding: 10px 122px;
+      border-bottom: 1px solid white;
+      color: white;
+      margin: 0; }
+    .pricing-sect .pricing-box .pricing-div .basic-div .anoth-h {
+      padding: 10px 114px; }
+    .pricing-sect .pricing-box .pricing-div .basic-div .price-p {
+      background-color: #333333;
+      padding: 10px 100px;
+      margin: 0;
+      color: white;
+      font-size: 30px;
+      border-bottom: 5px solid #FF9B51; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p .zero {
+        color: white;
+        font-size: 70px; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p .free {
+        font-size: 15px; }
+    .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth {
+      background-color: #333333;
+      padding: 10px 100px;
+      margin: 0;
+      color: white;
+      font-size: 30px; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .zero {
+        color: white;
+        font-size: 70px; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .free {
+        font-size: 15px; }
+    .pricing-sect .pricing-box .pricing-div .basic-div .add-p {
+      background-color: #FF9B51;
+      padding: 5px 91px;
+      color: white;
+      margin: 0;
+      font-size: 14px; }
+    .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div {
+      width: 100%;
+      border-bottom: 1px solid #F5F5F5;
+      display: flex;
+      background-color: white;
+      justify-content: center;
+      padding: 5px 0; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div .basic-list {
+        margin: 0;
+        font-size: 13px; }
