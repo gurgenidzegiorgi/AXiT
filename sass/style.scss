@@ -325,3 +325,44 @@ header{
         }
     }
 }
+.costumer{
+    padding: 100px 0;
+    .container{
+        .pricing-title-div{
+            flex-direction: column;
+            margin-bottom: 50px;
+            .title-stick{
+                width: 100px;
+                height: 2px;
+                background-color: #FF9B51;
+                margin: 20px 0;
+            }
+        }
+        .costumer-box{
+            .costumer-div{
+                // clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
+                // background-color: #F5F5F5;
+                // padding: 50px;
+                // padding-top: 25px;
+                .costumer-text{
+                    font-size: 14px;
+                    clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
+                    background-color: #F5F5F5;
+                    padding: 50px;
+                    padding-top: 25px;
+                }
+                .sircle-img{
+                    clip-path: circle(50% at 50% 50%);
+                    height: 100px;
+                }
+                .costumer-name{
+                    font-size: 12px;
+                    .cost-name{
+                        font-size: 20px;
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

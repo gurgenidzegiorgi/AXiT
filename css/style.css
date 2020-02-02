@@ -250,3 +250,28 @@ header {
       .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div .basic-list {
         margin: 0;
         font-size: 13px; }
+
+.costumer {
+  padding: 100px 0; }
+  .costumer .container .pricing-title-div {
+    flex-direction: column;
+    margin-bottom: 50px; }
+    .costumer .container .pricing-title-div .title-stick {
+      width: 100px;
+      height: 2px;
+      background-color: #FF9B51;
+      margin: 20px 0; }
+  .costumer .container .costumer-box .costumer-div .costumer-text {
+    font-size: 14px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
+    background-color: #F5F5F5;
+    padding: 50px;
+    padding-top: 25px; }
+  .costumer .container .costumer-box .costumer-div .sircle-img {
+    clip-path: circle(50% at 50% 50%);
+    height: 100px; }
+  .costumer .container .costumer-box .costumer-div .costumer-name {
+    font-size: 12px; }
+    .costumer .container .costumer-box .costumer-div .costumer-name .cost-name {
+      font-size: 20px;
+      color: black; }
