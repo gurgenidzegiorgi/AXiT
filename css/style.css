@@ -118,3 +118,74 @@ header {
     color: white; }
   .tab-sect .build {
     width: 250px; }
+
+.sub-list-sect {
+  padding: 100px 0; }
+  .sub-list-sect .biss-png {
+    width: 400px; }
+  .sub-list-sect .sub-list-frs {
+    margin-bottom: 30px; }
+    .sub-list-sect .sub-list-frs .orange-stick {
+      background-color: #FF9B51;
+      height: 2px;
+      width: 70px;
+      margin: 30px 0; }
+  .sub-list-sect .title-div {
+    margin-bottom: 20px; }
+    .sub-list-sect .title-div:last-child {
+      margin: 0; }
+    .sub-list-sect .title-div .sircle {
+      background-color: none;
+      border: 2px solid #FF9B51;
+      border-radius: 50%;
+      height: 45px;
+      width: 45px;
+      margin-right: 20px; }
+      .sub-list-sect .title-div .sircle .otx {
+        width: 10px;
+        height: 15px;
+        background-color: #FF9B51; }
+
+.standart {
+  padding: 100px 0;
+  background-color: #F5F5F5; }
+  .standart .standart-article .orange-stick {
+    background-color: #FF9B51;
+    height: 2px;
+    width: 70px;
+    margin: 30px 0; }
+  .standart .biss-png {
+    width: 400px; }
+
+.awesome {
+  padding: 100px 0; }
+  .awesome .new-d {
+    flex-direction: column; }
+    .awesome .new-d .awesome-div {
+      flex-direction: column;
+      margin-bottom: 50px; }
+      .awesome .new-d .awesome-div .title-stick {
+        width: 100px;
+        height: 2px;
+        background-color: #FF9B51;
+        margin: 20px 0; }
+    .awesome .new-d .object-div {
+      width: 100%; }
+      .awesome .new-d .object-div .design {
+        flex-direction: column; }
+        .awesome .new-d .object-div .design .object-sircle {
+          width: 60px;
+          height: 60px;
+          border: 2px solid #FF9B51;
+          border-radius: 50%; }
+          .awesome .new-d .object-div .design .object-sircle .object-otx {
+            width: 15px;
+            height: 20px;
+            background-color: #FF9B51; }
+          .awesome .new-d .object-div .design .object-sircle .object-otx-sec {
+            width: 15px;
+            height: 20px;
+            background-color: #FF9B51;
+            margin-right: 10px; }
+        .awesome .new-d .object-div .design .object-title {
+          margin: 20px 0; }
