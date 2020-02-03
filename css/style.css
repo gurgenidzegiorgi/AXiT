@@ -275,3 +275,24 @@ header {
     .costumer .container .costumer-box .costumer-div .costumer-name .cost-name {
       font-size: 20px;
       color: black; }
+
+.stylish {
+  padding: 100px 0;
+  background-image: url(https://images.unsplash.com/photo-1453413453658-27fec8f43f29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-position: center;
+  background-size: cover; }
+  .stylish .container .pricing-title-div {
+    flex-direction: column; }
+    .stylish .container .pricing-title-div .awesome-title {
+      color: white; }
+    .stylish .container .pricing-title-div .title-stick {
+      width: 100px;
+      height: 1.5px;
+      background-color: white;
+      margin: 20px 0; }
+    .stylish .container .pricing-title-div .dawn {
+      padding: 10px 30px;
+      margin-top: 30px;
+      background: none;
+      color: white;
+      border: solid; }

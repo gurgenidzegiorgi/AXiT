@@ -366,3 +366,30 @@ header{
         }
     }
 }
+.stylish{
+    padding: 100px 0;
+    background-image: url(https://images.unsplash.com/photo-1453413453658-27fec8f43f29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-position: center;
+    background-size: cover;
+    .container{
+        .pricing-title-div{
+            flex-direction: column;
+            .awesome-title{
+                color: white;
+            }
+            .title-stick{
+                width: 100px;
+                height: 1.5px;
+                background-color:white;
+                margin: 20px 0;
+            }
+            .dawn{
+                padding: 10px 30px;
+                margin-top: 30px;
+                background: none;
+                color: white;
+                border: solid;
+            }
+        }  
+    }
+}
