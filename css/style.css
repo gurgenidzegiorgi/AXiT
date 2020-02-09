@@ -329,3 +329,16 @@ header {
       padding: 10px 30px;
       border: none;
       color: white; }
+
+footer {
+  padding: 20px 0;
+  background-color: black; }
+  footer .container .footer-img-div {
+    margin-bottom: 20px; }
+    footer .container .footer-img-div .footer-img {
+      height: 40px;
+      margin-right: 10px; }
+      footer .container .footer-img-div .footer-img:last-child {
+        margin: 0; }
+  footer .container .author {
+    margin: 0; }
