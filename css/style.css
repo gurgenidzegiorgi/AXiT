@@ -1,6 +1,9 @@
 .container {
   padding: 0; }
 
+input:focus {
+  outline: none; }
+
 header {
   background-color: black; }
   header .div {
@@ -77,8 +80,6 @@ header {
       border-bottom: 1px solid grey;
       padding-left: 10px;
       width: 250px; }
-  .sec-bg-div input:focus {
-    outline: none; }
   .sec-bg-div .get-started {
     background-color: #FF9B51;
     padding: 10px 50px;
@@ -296,3 +297,35 @@ header {
       background: none;
       color: white;
       border: solid; }
+
+.contact {
+  padding: 100px 0; }
+  .contact .container .pricing-title-div {
+    flex-direction: column;
+    margin-bottom: 50px; }
+    .contact .container .pricing-title-div .title-stick {
+      width: 100px;
+      height: 2px;
+      background-color: #FF9B51;
+      margin: 20px 0; }
+  .contact .container .inp-box .input-form .last-input-box {
+    width: 100%; }
+    .contact .container .inp-box .input-form .last-input-box .input-column .last-input {
+      width: 500px;
+      border: none;
+      border-bottom: 1px solid grey;
+      padding-left: 10px;
+      margin-bottom: 30px; }
+    .contact .container .inp-box .input-form .last-input-box textarea {
+      border: none;
+      border-bottom: 1px solid grey;
+      resize: none;
+      width: 500px;
+      height: 141px; }
+      .contact .container .inp-box .input-form .last-input-box textarea:focus {
+        outline: none; }
+    .contact .container .inp-box .input-form .last-input-box .orange-down {
+      background-color: #FF9B51;
+      padding: 10px 30px;
+      border: none;
+      color: white; }
