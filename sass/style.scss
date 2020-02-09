@@ -145,9 +145,10 @@ header{
             color: white;
             padding: 35px;
             border: 1px solid grey;
-            transition: background-color 0.2s ease-in-out 0.2s;
+            transition: all 0.2s ease-in-out 0.2s;
             &:hover{
                 background-color:#FF9B51;
+                border:1px solid #FF9B51;
             }
         }
     }

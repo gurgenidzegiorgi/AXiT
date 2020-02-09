@@ -120,9 +120,10 @@ header {
       color: white;
       padding: 35px;
       border: 1px solid grey;
-      transition: background-color 0.2s ease-in-out 0.2s; }
+      transition: all 0.2s ease-in-out 0.2s; }
       .tab-sect .tab-butt-div .tab-butt:hover {
-        background-color: #FF9B51; }
+        background-color: #FF9B51;
+        border: 1px solid #FF9B51; }
   .tab-sect .tab-artc-div .tab-h {
     margin-bottom: 30px; }
   .tab-sect .tab-artc-div .tab-p {
