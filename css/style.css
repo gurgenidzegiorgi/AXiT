@@ -4,6 +4,9 @@
 input:focus {
   outline: none; }
 
+button:focus {
+  outline: none; }
+
 header {
   background-color: black; }
   header .div {
@@ -27,7 +30,10 @@ header {
       header .div li .li {
         color: white;
         font-size: 20px;
-        text-decoration: none; }
+        text-decoration: none;
+        transition: color 0.2s ease-in-out 0.2s; }
+        header .div li .li:hover {
+          color: #FF9B51; }
 
 .bg {
   width: 100%;
@@ -58,7 +64,13 @@ header {
     margin-top: 30px;
     background: none;
     color: white;
-    border: solid; }
+    border: solid;
+    transition: all 0.2s ease-in-out 0.2s; }
+    .bg .dawn:hover {
+      background-color: #FF9B51;
+      border-radius: 10%; }
+    .bg .dawn:focus {
+      background-color: grey; }
 
 .sec-bg-div {
   background-color: white; }
@@ -107,7 +119,10 @@ header {
       background-color: black;
       color: white;
       padding: 35px;
-      border: 1px solid grey; }
+      border: 1px solid grey;
+      transition: background-color 0.2s ease-in-out 0.2s; }
+      .tab-sect .tab-butt-div .tab-butt:hover {
+        background-color: #FF9B51; }
   .tab-sect .tab-artc-div .tab-h {
     margin-bottom: 30px; }
   .tab-sect .tab-artc-div .tab-p {
@@ -116,7 +131,13 @@ header {
     background-color: #FF9B51;
     padding: 10px 30px;
     border: none;
-    color: white; }
+    color: white;
+    transition: all 0.2s ease-in-out 0.2s; }
+    .tab-sect .tab-artc-div .orange-down:hover {
+      background-color: #FF9B51;
+      border-radius: 10%; }
+    .tab-sect .tab-artc-div .orange-down:focus {
+      background-color: grey; }
   .tab-sect .build {
     width: 250px; }
 
@@ -141,7 +162,12 @@ header {
       border-radius: 50%;
       height: 45px;
       width: 45px;
-      margin-right: 20px; }
+      margin-right: 20px;
+      transition: all 0.2s ease-in-out 0.2s; }
+      .sub-list-sect .title-div .sircle:hover {
+        height: 60px;
+        width: 60px;
+        border-radius: 75%; }
       .sub-list-sect .title-div .sircle .otx {
         width: 10px;
         height: 15px;
@@ -178,16 +204,25 @@ header {
           width: 60px;
           height: 60px;
           border: 2px solid #FF9B51;
-          border-radius: 50%; }
+          border-radius: 50%;
+          transition: all 0.2s ease-in-out 0.2s; }
+          .awesome .new-d .object-div .design .object-sircle:hover {
+            background-color: #FF9B51; }
+          .awesome .new-d .object-div .design .object-sircle:hover .object-otx {
+            background-color: white; }
+          .awesome .new-d .object-div .design .object-sircle:hover .object-otx-sec {
+            background-color: white; }
           .awesome .new-d .object-div .design .object-sircle .object-otx {
             width: 15px;
             height: 20px;
-            background-color: #FF9B51; }
+            background-color: #FF9B51;
+            transition: all 0.2s ease-in-out 0.2s; }
           .awesome .new-d .object-div .design .object-sircle .object-otx-sec {
             width: 15px;
             height: 20px;
             background-color: #FF9B51;
-            margin-right: 10px; }
+            margin-right: 10px;
+            transition: all 0.2s ease-in-out 0.2s; }
         .awesome .new-d .object-div .design .object-title {
           margin: 20px 0; }
 
@@ -209,7 +244,10 @@ header {
       padding: 10px 122px;
       border-bottom: 1px solid white;
       color: white;
-      margin: 0; }
+      margin: 0;
+      transition: all 0.2s ease-in-out 0.2s; }
+      .pricing-sect .pricing-box .pricing-div .basic-div h6:hover {
+        background-color: #FF9B51; }
     .pricing-sect .pricing-box .pricing-div .basic-div .anoth-h {
       padding: 10px 114px; }
     .pricing-sect .pricing-box .pricing-div .basic-div .price-p {
@@ -218,23 +256,37 @@ header {
       margin: 0;
       color: white;
       font-size: 30px;
-      border-bottom: 5px solid #FF9B51; }
+      border-bottom: 5px solid #FF9B51;
+      transition: all 0.2s ease-in-out 0.2s; }
       .pricing-sect .pricing-box .pricing-div .basic-div .price-p .zero {
         color: white;
         font-size: 70px; }
       .pricing-sect .pricing-box .pricing-div .basic-div .price-p .free {
-        font-size: 15px; }
+        font-size: 15px;
+        color: grey;
+        transition: all 0.2s ease-in-out 0.2s; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p:hover {
+        background-color: grey; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p:hover .free {
+        color: white; }
     .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth {
       background-color: #333333;
       padding: 10px 100px;
       margin: 0;
       color: white;
-      font-size: 30px; }
+      font-size: 30px;
+      transition: all 0.2s ease-in-out 0.2s; }
       .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .zero {
         color: white;
         font-size: 70px; }
       .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .free {
-        font-size: 15px; }
+        font-size: 15px;
+        color: grey;
+        transition: all 0.2s ease-in-out 0.2s; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth:hover {
+        background-color: grey; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth:hover .free {
+        color: white; }
     .pricing-sect .pricing-box .pricing-div .basic-div .add-p {
       background-color: #FF9B51;
       padding: 5px 91px;
@@ -247,10 +299,17 @@ header {
       display: flex;
       background-color: white;
       justify-content: center;
-      padding: 5px 0; }
+      padding: 5px 0;
+      transition: all 0.2s ease 0.2s; }
       .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div .basic-list {
         margin: 0;
-        font-size: 13px; }
+        font-size: 13px;
+        color: grey;
+        transition: all 0.2s ease 0.2s; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div:hover {
+        background-color: #FF9B51; }
+      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div:hover .basic-list {
+        color: white; }
 
 .costumer {
   padding: 100px 0; }
@@ -267,7 +326,12 @@ header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
     background-color: #F5F5F5;
     padding: 50px;
-    padding-top: 25px; }
+    padding-top: 25px;
+    color: grey;
+    transition: all 0.2s ease-in-out 0.2s; }
+    .costumer .container .costumer-box .costumer-div .costumer-text:hover {
+      background-color: #FF9B51;
+      color: white; }
   .costumer .container .costumer-box .costumer-div .sircle-img {
     clip-path: circle(50% at 50% 50%);
     height: 100px; }
@@ -296,7 +360,13 @@ header {
       margin-top: 30px;
       background: none;
       color: white;
-      border: solid; }
+      border: solid;
+      transition: all 0.2s ease-in-out 0.2s; }
+      .stylish .container .pricing-title-div .dawn:hover {
+        background-color: #FF9B51;
+        border-radius: 10%; }
+      .stylish .container .pricing-title-div .dawn:focus {
+        background-color: grey; }
 
 .contact {
   padding: 100px 0; }
@@ -328,7 +398,10 @@ header {
       background-color: #FF9B51;
       padding: 10px 30px;
       border: none;
-      color: white; }
+      color: white;
+      transition: all 0.2s ease-in-out 0.2s; }
+      .contact .container .inp-box .input-form .last-input-box .orange-down:focus {
+        background-color: grey; }
 
 footer {
   padding: 20px 0;
