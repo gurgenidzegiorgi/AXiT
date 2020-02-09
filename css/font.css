@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Vidaloka-Regular';
+  src: url('Vidaloka-Regular.eot');
+  src: url('Vidaloka-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Vidaloka-Regular.svg#Vidaloka-Regular') format('svg'),
+       url('../fonts/Vidaloka-Regular.ttf') format('truetype'),
+       url('../fonts/Vidaloka-Regular.woff') format('woff'),
+       url('../fonts/Vidaloka-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Cinzel-Regular';
+  src: url('..fonts/Cinzel-Regular.eot');
+  src: url('..fonts/Cinzel-Regular.eot?#iefix') format('embedded-opentype'),
+       url('..fonts/Cinzel-Regular.svg#Cinzel-Regular') format('svg'),
+       url('..fonts/Cinzel-Regular.ttf') format('truetype'),
+       url('..fonts/Cinzel-Regular.woff') format('woff'),
+       url('..fonts/Cinzel-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

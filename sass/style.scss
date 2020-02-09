@@ -1,6 +1,9 @@
 .container{
     padding: 0;
 }
+.awe-p{
+    font-family: 'Vidaloka-Regular';
+}
 input:focus{
     outline: none;
 }
@@ -24,6 +27,7 @@ header{
             list-style-type: none;
         }
         li{
+            font-family: 'Cinzel-Regular';
             text-decoration: none;
             color: white;
             font-size: 15px;
@@ -58,6 +62,7 @@ header{
         }
     }
     .f-p{
+        font-family: 'Cinzel-Regular';
         font-size: 40px;
         color: white;
         padding: 0;
@@ -70,6 +75,7 @@ header{
         margin: 40px 0;
     }
     .sec-p{
+        font-family: 'Vidaloka-Regular';
         color: white;
     }
     .dawn{
@@ -122,8 +128,12 @@ header{
 }
 .social-sect{
     .social-h{
+        font-family: 'Cinzel-Regular';
         font-size: 40px;
         margin: 0;
+    }
+    .soc-p{
+        font-family: 'Vidaloka-Regular';
     }
     .soc-img-div{
         &:last-child{
@@ -154,9 +164,11 @@ header{
     }
     .tab-artc-div{
         .tab-h{
+            font-family: 'Cinzel-Regular';
             margin-bottom: 30px;
         }
         .tab-p{
+            font-family: 'Vidaloka-Regular';
             margin-bottom: 30px;
         }
         .orange-down{
@@ -185,6 +197,12 @@ header{
     }
     .sub-list-frs{
         margin-bottom: 30px;
+        .sub-list-h{
+            font-family: 'Cinzel-Regular';
+        }
+        .sub-list-p{
+            font-family: 'Vidaloka-Regular';
+        }
         .orange-stick{
             background-color:#FF9B51;
             height: 2px;
@@ -216,12 +234,21 @@ header{
                 background-color:#FF9B51 ;
             }
         }
+            .title-div-p{
+                font-family: 'Vidaloka-Regular';
+            }
     }
 }
 .standart{
     padding: 100px 0;
     background-color: #F5F5F5;
     .standart-article{
+        .standart-artc-h{
+            font-family: 'Cinzel-Regular';
+        }
+        .standart-p{
+            font-family: 'Vidaloka-Regular';
+        }
         .orange-stick{
             background-color:#FF9B51;
             height: 2px;
@@ -240,17 +267,26 @@ header{
         .awesome-div{
             flex-direction: column;
             margin-bottom: 50px;
+            .awesome-title{
+                font-family: 'Cinzel-Regular';
+            }
             .title-stick{
                 width: 100px;
                 height: 2px;
                 background-color: #FF9B51;
                 margin: 20px 0;
             }
+            .awe-p{
+                font-family: 'Vidaloka-Regular';
+            }
         }
         .object-div{
             width: 100%;
             .design{
                 flex-direction: column;
+                .object-p{
+                    font-family: 'Vidaloka-Regular';
+                }
                 .object-sircle{
                     width: 60px;
                     height: 60px;
@@ -279,8 +315,10 @@ header{
                         margin-right: 10px;
                         transition: all 0.2s ease-in-out 0.2s;
                     }
+                    
                 }
                 .object-title{
+                    font-family: 'Cinzel-Regular';
                     margin: 20px 0;
                 }
             }
@@ -295,6 +333,9 @@ header{
         .pricing-title-div{
             flex-direction: column;
             margin-bottom: 50px;
+            .awesome-title{
+                font-family: 'Cinzel-Regular';
+            }
             .title-stick{
                 width: 100px;
                 height: 2px;
@@ -305,6 +346,7 @@ header{
         .pricing-div{
             .basic-div{
                 h6{
+                    font-family: 'Cinzel-Regular';
                     background-color: #333333;
                     padding: 10px 122px;
                     border-bottom: 1px solid white;
@@ -381,6 +423,7 @@ header{
                     padding: 5px 0;
                     transition: all 0.2s ease 0.2s;
                     .basic-list{
+                        font-family: 'Vidaloka-Regular';
                         margin: 0;
                         font-size: 13px;
                         color: grey;
@@ -403,6 +446,9 @@ header{
         .pricing-title-div{
             flex-direction: column;
             margin-bottom: 50px;
+            .awesome-title{
+                font-family: 'Cinzel-Regular';
+            }
             .title-stick{
                 width: 100px;
                 height: 2px;
@@ -413,6 +459,7 @@ header{
         .costumer-box{
             .costumer-div{
                 .costumer-text{
+                    font-family: 'Vidaloka-Regular';
                     font-size: 14px;
                     clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
                     background-color: #F5F5F5;
@@ -449,6 +496,7 @@ header{
         .pricing-title-div{
             flex-direction: column;
             .awesome-title{
+                font-family: 'Cinzel-Regular';
                 color: white;
             }
             .title-stick{
@@ -481,6 +529,9 @@ header{
         .pricing-title-div{
             flex-direction: column;
             margin-bottom: 50px;
+            .awesome-title{
+                font-family: 'Cinzel-Regular';
+            }
             .title-stick{
                 width: 100px;
                 height: 2px;
