@@ -12,7 +12,7 @@ button:focus{
 }
 header{
     background-color: black;
-    .div{
+    .container{
         padding: 0;
         .AXiT{
             color: white;
@@ -23,25 +23,25 @@ header{
         .iT{
             color:#FF9B51;
         }
-        nav{
+        .nav-box{
             list-style-type: none;
-        }
-        li{
-            font-family: 'Cinzel-Regular';
-            text-decoration: none;
-            color: white;
-            font-size: 15px;
-            margin-right: 25px;
-            &:last-child{
-                margin-right: 0;
-            }
-            .li{
-                color: white;
-                font-size: 20px;
+            li{
+                font-family: 'Cinzel-Regular';
                 text-decoration: none;
-                transition: color 0.2s ease-in-out 0.2s;
-                &:hover{
-                    color:#FF9B51;
+                color: white;
+                font-size: 15px;
+                margin-right: 25px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                .li{
+                    color: white;
+                    font-size: 20px;
+                    text-decoration: none;
+                    transition: color 0.2s ease-in-out 0.2s;
+                    &:hover{
+                        color:#FF9B51;
+                    }
                 }
             }
         }
@@ -194,6 +194,10 @@ header{
     padding: 100px 0;
     .biss-png{
         width: 400px;
+        transition: all 0.2s ease-in-out 0.2s;
+        &:hover{
+            width: 550px;
+        }
     }
     .sub-list-frs{
         margin-bottom: 30px;
@@ -258,6 +262,10 @@ header{
     }
     .biss-png{
         width: 400px;
+        transition: all 0.2s ease-in-out 0.2s;
+        &:hover{
+            width: 440px;
+        }
     }
 }
 .awesome{
@@ -345,10 +353,22 @@ header{
         }
         .pricing-div{
             .basic-div{
+                .basic-h{
+                    font-family: 'Cinzel-Regular';
+                    background-color: #333333;
+                    padding: 10px 123px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    margin: 0;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    &:hover{
+                        background-color:#FF9B51 ;
+                    } 
+                }
                 h6{
                     font-family: 'Cinzel-Regular';
                     background-color: #333333;
-                    padding: 10px 122px;
+                    padding: 10px 125px;
                     border-bottom: 1px solid white;
                     color: white;
                     margin: 0;
@@ -358,7 +378,112 @@ header{
                     }
                 }
                 .anoth-h{
-                    padding: 10px 114px;
+                    padding: 10px 119px;
+                }
+                .price-p{
+                    background-color: #333333;
+                    padding: 10px 100px;
+                    margin: 0;
+                    color: white;
+                    font-size: 30px;
+                    border-bottom: 5px solid #FF9B51;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    .zero{
+                        color: white;
+                        font-size: 70px;
+                    }
+                    .free{
+                        font-size:15px;
+                        color: grey;
+                        transition: all 0.2s ease-in-out 0.2s;
+                    }
+                    &:hover{
+                        background-color: grey;
+                    }
+                    &:hover .free{
+                        color: white;
+                    }
+                }
+                .price-p-anoth{
+                    background-color: #333333;
+                    padding: 10px 100px;
+                    margin: 0;
+                    color: white;
+                    font-size: 30px;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    .zero{
+                        color: white;
+                        font-size: 70px;
+                    }
+                    .free{
+                        font-size:15px;
+                        color: grey;
+                        transition: all 0.2s ease-in-out 0.2s;
+                    }
+                    &:hover{
+                        background-color: grey;
+                    }
+                    &:hover .free{
+                        color: white;
+                    }
+                }
+                .add-p{
+                    background-color: #FF9B51;
+                    padding: 5px 91px;
+                    color: white;
+                    margin: 0;
+                    font-size: 14px;
+                }
+                .basic-list-div{
+                    width: 100%;
+                    border-bottom: 1px solid #F5F5F5;
+                    display: flex;
+                    background-color: white;
+                    justify-content: center;
+                    padding: 5px 0;
+                    transition: all 0.2s ease 0.2s;
+                    .basic-list{
+                        font-family: 'Vidaloka-Regular';
+                        margin: 0;
+                        font-size: 13px;
+                        color: grey;
+                        transition: all 0.2s ease 0.2s;
+                    }
+                    &:hover{
+                        background-color:#FF9B51 ;
+                    }
+                    &:hover .basic-list{
+                        color:white ;
+                    }
+                }
+            }
+            .sec-basic-div{
+                .basic-h{
+                    font-family: 'Cinzel-Regular';
+                    background-color: #333333;
+                    padding: 10px 123px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    margin: 0;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    &:hover{
+                        background-color:#FF9B51 ;
+                    } 
+                }
+                h6{
+                    font-family: 'Cinzel-Regular';
+                    background-color: #333333;
+                    padding: 10px 125px;
+                    border-bottom: 1px solid white;
+                    color: white;
+                    margin: 0;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    &:hover{
+                        background-color:#FF9B51 ;
+                    }
+                }
+                .anoth-h{
+                    padding: 10px 118px;
                 }
                 .price-p{
                     background-color: #333333;
@@ -475,6 +600,10 @@ header{
                 .sircle-img{
                     clip-path: circle(50% at 50% 50%);
                     height: 100px;
+                    transition: all 0.2s ease-in-out 0.2s;
+                    &:hover{
+                        height: 140px;
+                    }
                 }
                 .costumer-name{
                     font-size: 12px;
@@ -525,7 +654,7 @@ header{
 }
 .contact{
     padding: 100px 0;
-    .container{
+    // .container{
         .pricing-title-div{
             flex-direction: column;
             margin-bottom: 50px;
@@ -568,14 +697,10 @@ header{
                         border: none;
                         color: white;
                         transition: all 0.2s ease-in-out 0.2s;
-                        &:focus{
-                            background-color: grey;
-                        }
                     }
                 }
             }
         }
-    }
 }
 footer{
     padding: 20px 0;
@@ -583,7 +708,7 @@ footer{
     .container{
         .footer-img-div{
             margin-bottom: 20px;
-            .footer-img{
+            .footer-img img{
                 height: 40px;
                 margin-right: 10px;
                 &:last-child{
@@ -593,6 +718,46 @@ footer{
         }
         .author{
             margin: 0;
+        }
+    }
+}
+@media screen and (max-width:1024px){
+    header{
+        .container{
+            .nav-box{
+                display: none;
+            }
+        }
+    }
+    .sub-list-sect{
+        .biss-png{
+            transition: all 0.2s ease-in-out 0.2s;
+            &:hover{
+                width: 450px;
+            }
+        }
+    }
+    .standart{
+        .biss-png{
+            &:hover{
+                width: 420px;
+            }
+        }
+    }
+    .contact{
+        .inp-box{
+            .input-form{
+                .last-input-box{
+                    .input-column{
+                        .last-input{
+                            width: 400px;
+                        }
+                    }         
+                    textarea{
+                        width: 400px;
+                    }
+                }
+            }
         }
     }
 }
