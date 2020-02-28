@@ -761,3 +761,115 @@ footer{
         }
     }
 }
+@media screen and (max-width:768px){
+    header{
+        .container{
+            .nav-box{
+            }
+        }
+    }
+    .bg{
+        .f-p{
+            font-size: 25px;
+        }
+    }
+    .tab-artc-div{
+        .tab-p{
+            width: 265px;
+        }
+    }
+    .sub-list-sect{
+        .container{
+            flex-direction: column-reverse;
+        }
+        .sub-list-div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+            .sub-list-frs{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+    .standart{
+        .standart-article{
+            .standart-p{
+                width: 260px;
+                .ath-span{
+                    display: none;
+                }
+            }
+        }
+    }
+    .awesome{
+        .new-d{
+            .object-div{
+                .design{
+                    .object-p{
+                        width: 170px;
+                    }
+                }
+            }
+        }
+    }
+    .pricing-sect{
+        .pricing-box{
+            .pricing-div{
+               flex-direction: column;
+               .basic-div{
+                margin-bottom: 20px;
+                   .basic-list-div{
+                    width: 282px;
+                    }
+               }
+               .sec-basic-div{
+                    &:last-child{
+                        margin-bottom: 0;
+                    }
+                   margin-bottom: 20px;
+                    .basic-list-div{
+                    width: 316px;
+                    }
+                } 
+            }
+        }
+    }
+    .costumer{
+        .container{
+            .costumer-box{
+                .costumer-div{
+                    .costumer-text{
+                        width: 220px;
+                    }
+                    .cost-img-div img{
+                        &:hover{
+                            height: 120px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .inp-box{
+            .input-form{
+                .last-input-box{
+                    .input-column{
+                        .last-input{
+                            width: 300px;
+                        }
+                    }         
+                    textarea{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:480px){
+
+}
