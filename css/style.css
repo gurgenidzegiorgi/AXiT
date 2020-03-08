@@ -46,37 +46,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
-  .bg .h-AX {
-    font-size: 70px;
-    color: white; }
-    .bg .h-AX .iT {
-      color: #FF9B51; }
-  .bg .f-p {
-    font-family: 'Cinzel-Regular';
-    font-size: 40px;
-    color: white;
-    padding: 0;
-    margin: 0; }
-  .bg .stick {
-    background-color: white;
-    width: 100px;
-    height: 2px;
-    margin: 40px 0; }
-  .bg .sec-p {
-    font-family: 'Vidaloka-Regular';
-    color: white; }
-  .bg .dawn {
-    padding: 10px 30px;
-    margin-top: 30px;
-    background: none;
-    color: white;
-    border: solid;
-    transition: all 0.2s ease-in-out 0.2s; }
-    .bg .dawn:hover {
-      background-color: #FF9B51;
-      border-radius: 10%; }
-    .bg .dawn:focus {
-      background-color: grey; }
 
 .sec-bg-div {
   background-color: white; }

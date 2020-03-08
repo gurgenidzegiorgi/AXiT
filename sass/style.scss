@@ -60,37 +60,7 @@ header{
         .iT{
             color:#FF9B51;
         }
-    }
-    .f-p{
-        font-family: 'Cinzel-Regular';
-        font-size: 40px;
-        color: white;
-        padding: 0;
-        margin: 0;
-    }
-    .stick{
-        background-color: white;
-        width: 100px;
-        height: 2px;
-        margin: 40px 0;
-    }
-    .sec-p{
-        font-family: 'Vidaloka-Regular';
-        color: white;
-    }
-    .dawn{
-        padding: 10px 30px;
-        margin-top: 30px;
-        background: none;
-        color: white;
-        border: solid;
-        transition: all 0.2s ease-in-out 0.2s;
-        &:hover{
-            background-color:#FF9B51;
-            border-radius: 10%;
         }
-        &:focus{
-            background-color: grey;
         }
     }
 }
@@ -365,21 +335,6 @@ header{
                         background-color:#FF9B51 ;
                     } 
                 }
-                h6{
-                    font-family: 'Cinzel-Regular';
-                    background-color: #333333;
-                    padding: 10px 125px;
-                    border-bottom: 1px solid white;
-                    color: white;
-                    margin: 0;
-                    transition: all 0.2s ease-in-out 0.2s;
-                    &:hover{
-                        background-color:#FF9B51 ;
-                    }
-                }
-                .anoth-h{
-                    padding: 10px 119px;
-                }
                 .price-p{
                     background-color: #333333;
                     padding: 10px 100px;
@@ -403,36 +358,6 @@ header{
                     &:hover .free{
                         color: white;
                     }
-                }
-                .price-p-anoth{
-                    background-color: #333333;
-                    padding: 10px 100px;
-                    margin: 0;
-                    color: white;
-                    font-size: 30px;
-                    transition: all 0.2s ease-in-out 0.2s;
-                    .zero{
-                        color: white;
-                        font-size: 70px;
-                    }
-                    .free{
-                        font-size:15px;
-                        color: grey;
-                        transition: all 0.2s ease-in-out 0.2s;
-                    }
-                    &:hover{
-                        background-color: grey;
-                    }
-                    &:hover .free{
-                        color: white;
-                    }
-                }
-                .add-p{
-                    background-color: #FF9B51;
-                    padding: 5px 91px;
-                    color: white;
-                    margin: 0;
-                    font-size: 14px;
                 }
                 .basic-list-div{
                     width: 100%;
@@ -458,10 +383,8 @@ header{
                 }
             }
             .sec-basic-div{
-                .basic-h{
                     font-family: 'Cinzel-Regular';
                     background-color: #333333;
-                    padding: 10px 123px;
                     border-bottom: 1px solid white;
                     color: white;
                     margin: 0;
@@ -470,7 +393,6 @@ header{
                         background-color:#FF9B51 ;
                     } 
                 }
-                h6{
                     font-family: 'Cinzel-Regular';
                     background-color: #333333;
                     padding: 10px 125px;
@@ -481,9 +403,6 @@ header{
                     &:hover{
                         background-color:#FF9B51 ;
                     }
-                }
-                .anoth-h{
-                    padding: 10px 119px;
                 }
                 .price-p{
                     background-color: #333333;
@@ -761,16 +680,11 @@ footer{
         }
     }
 }
-@media screen and (max-width:768px){
-    header{
         .container{
-            .nav-box{
             }
         }
     }
     .bg{
-        .f-p{
-            font-size: 25px;
         }
     }
     .tab-artc-div{
@@ -782,24 +696,10 @@ footer{
         .container{
             flex-direction: column-reverse;
         }
-        .sub-list-div{
-            display: flex;
             flex-direction: column;
-            align-items: center;
-            margin-bottom: 30px;
-            .sub-list-frs{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-            }
-        }
-    }
-    .standart{
-        .standart-article{
-            .standart-p{
-                width: 260px;
-                .ath-span{
-                    display: none;
                 }
             }
         }
@@ -859,11 +759,9 @@ footer{
                 .last-input-box{
                     .input-column{
                         .last-input{
-                            width: 300px;
                         }
                     }         
                     textarea{
-                        width: 300px;
                     }
                 }
             }
@@ -871,5 +769,4 @@ footer{
     }
 }
 @media screen and (max-width:480px){
-
 }
