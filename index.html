@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -39,10 +39,23 @@
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+            <div class="pos-f-t burger">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                    <h5 class="text-white h4">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark ">
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </nav>
+              </div>
         </div>
     </header>
     <section class="bg d-flex align-items-center">
-        <div class="container d-flex justify-content-between align-items-center">
+        <div class="container d-flex align-items-center">
             <div class="f-bg-div">
                 <h1 class="h-AX">
                     AX<span class="iT">iT</span>
@@ -61,12 +74,10 @@
                 <button class="dawn" type="submit">Download</button>
             </div>
             <div class="sec-bg-div">
-                <!-- <div class="sec-bg-h-div"> -->
                 <p class="sec-bg-div-p">
                     Try Your <span class="iT">FREE</span> Trial Today
                 </p>
-                <!-- </div> -->
-                <!-- <div class="sec-bg-form-div"> -->
+            <div class="sec-bg-form-div">
                 <form class="f-form">
                     <input class="f-input" type="text" name="Name" id="name" placeholder="Name" required>
                     <input class="f-input" type="email" name="Email" id="email" placeholder="Email" required>
@@ -113,7 +124,7 @@
                 <button class="tab-butt">Tab2</button>
                 <button class="tab-butt">Tab3</button>
             </div>
-            <div class="tab-artc-div d">
+            <div class="tab-artc-div">
                 <h5 class="tab-h">
                     Tabs With Soft Transitioning Effect
                 </h5>
@@ -121,11 +132,12 @@
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, culpa nemo, 
                     <br> aliquid rem inventore facere maiores molestiae modi suscipit itaque excepturi 
                     <br>tempore nobis nam? Natus consequuntur sapiente ut excepturi dolor.
-                    <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsum rerum
-                    <br>
-                    <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi, libero corporis, 
-                    <br> quas debitis, laboriosam id 
+                    <span class="none-span"> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsum rerum
+                        <br>
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi, libero corporis, 
+                        <br> quas debitis, laboriosam id
+                    </span> 
                 </p>
                 <button class="orange-down">Download</button>
             </div>
@@ -202,7 +214,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div>
-            <div class="object-div d-flex justify-content-between">
+            <div class="object-div d-flex flex-wrap">
                 <div class="design d-flex justify-content-center align-items-center">
                     <div class="object-sircle d-flex align-items-center justify-content-center">
                         <div class="object-otx"></div>
@@ -248,7 +260,7 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
             </div> 
-            <div class="pricing-div d-flex justify-content-between">
+            <div class="pricing-div d-flex flex-wrap">
                 <div class="basic-div d-flex justify-content-center align-items-center flex-column">
                     <h6 class="basic-h">Basic</h6>
                     <p class="price-p">
@@ -274,7 +286,7 @@
                         <p class="basic-list text-secondary">EMAIL SUPPORT</p>
                     </div>
                 </div>
-                <div class="sec-basic-div d-flex justify-content-center align-items-center flex-column">
+                <div class="sec-basic-div d-flex justify-content-center align-items-center flex-column ">
                     <h6 class="anoth-h">Professional</h6>
                     <p class="price-p-anoth">
                         $<span class="zero">19</span>
@@ -301,7 +313,7 @@
                     </div>
                 </div>
                 <div class="sec-basic-div d-flex justify-content-center align-items-center flex-column">
-                    <h6>Enterprice</h6>
+                    <h6 class="third-h">Enterprice</h6>
                     <p class="price-p">
                         $<span class="zero">70</span>
                         <span class="free "><br>Monthly Payment</span>
@@ -331,13 +343,13 @@
     <section class="costumer">
         <div class="container">
                 <div class="pricing-title-div d-flex align-items-center ">
-                    <h1 class="awesome-title">WHAT OUR COSTUMERS ARE SAYING</h1>
+                    <h1 class="awesome-title">WHAT OUR COSTUMERS <span class="cost-h-span"> ARE SAYING </span></h1>
                     <div class="title-stick"></div>
                     <p class="awe-p text-secondary">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                 </div>
-                <div class="costumer-box d-flex justify-content-between">
+                <div class="costumer-box d-flex flex-wrap">
                     <div class="costumer-div">
                         <div class="costumer-text ">
                             Lorem ipsum, dolor sit amet   
