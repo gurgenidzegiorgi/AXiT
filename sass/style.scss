@@ -45,6 +45,9 @@ header{
                 }
             }
         }
+        .burger{
+            display: none;
+        }
     }
 }
 .bg{
@@ -54,8 +57,46 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    .container{
+        justify-content: space-between;
+        .h-AX{
+            font-size: 70px;
+            color: white;
+            .iT{
+                color:#FF9B51;
+            }
         }
+        .f-p{
+            font-family: 'Cinzel-Regular';
+            font-size: 40px;
+            color: white;
+            padding: 0;
+            margin: 0;
         }
+        .stick{
+            background-color: white;
+            width: 100px;
+            height: 2px;
+            margin: 40px 0;
+        }
+        .sec-p{
+            font-family: 'Vidaloka-Regular';
+            color: white;
+        }
+        .dawn{
+            padding: 10px 30px;
+            margin-top: 30px;
+            background: none;
+            color: white;
+            border: solid;
+            transition: all 0.2s ease-in-out 0.2s;
+            &:hover{
+                background-color:#FF9B51;
+                border-radius: 10%;
+            }
+            &:focus{
+                background-color: grey;
+            }
         }
     }
 }
@@ -254,6 +295,7 @@ header{
             }
         }
         .object-div{
+            justify-content: space-between;
             width: 100%;
             .design{
                 flex-direction: column;
@@ -317,6 +359,7 @@ header{
             }
         }
         .pricing-div{
+            justify-content: space-between;
             .basic-div{
                 .basic-h{
                     font-family: 'Cinzel-Regular';
@@ -378,8 +421,10 @@ header{
                 }
             }
             .sec-basic-div{
+                .anoth-h{
                     font-family: 'Cinzel-Regular';
                     background-color: #333333;
+                    padding: 10px 118px;
                     border-bottom: 1px solid white;
                     color: white;
                     margin: 0;
@@ -388,6 +433,7 @@ header{
                         background-color:#FF9B51 ;
                     } 
                 }
+                .third-h{
                     font-family: 'Cinzel-Regular';
                     background-color: #333333;
                     padding: 10px 125px;
@@ -496,6 +542,7 @@ header{
             }
         }
         .costumer-box{
+            justify-content: space-between;
             .costumer-div{
                 .costumer-text{
                     font-family: 'Vidaloka-Regular';
@@ -675,10 +722,98 @@ footer{
         }
     }
 }
-        .container{
+@media screen and (max-width: 991px){
+    .tab-sect{
+        .tab-artc-div{
+            .tab-p{
+                width: 315px;
             }
         }
     }
+    .sub-list-sect{
+        .container{
+            flex-direction: column-reverse;
+            .sub-list-div{
+                margin-bottom: 30px;
+                .sub-list-frs{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+    }
+    .standart{
+        .standart-article{
+            .standart-p{
+                width: 270px;
+                .ath-span{
+                    display: none;
+                }
+            }
+        }
+    }
+    .awesome{
+        .new-d{
+            .object-div{
+                .design{
+                    .object-p{
+                        width: 200px;
+                    }
+                }
+            }
+        }
+    }
+    .pricing-sect{
+        .pricing-box{
+            .pricing-div{
+                justify-content: center;
+                .basic-div{
+                    margin-right: 100px;
+                }
+                .sec-basic-div{
+                    order: 3;
+                    margin-top: 50px;
+                    &:last-child{
+                        order: unset;
+                        margin-bottom: 0;
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .costumer{
+        .container{
+            .costumer-box{
+                justify-content: center;
+                .costumer-div{
+                    &:first-child{
+                        margin-right: 100px;
+                    }
+                    &:last-child{
+                        margin-top: 50px;
+                    }
+                    .costumer-text{
+                        width: 300px;
+                    }
+                }
+            }
+        }
+    }
+    .contact{
+        .inp-box{
+            .input-form{
+                .last-input-box{
+                    .input-column{
+                        .last-input{
+                            width: 300px;
+                        }
+                    }         
+                    textarea{
+                        width: 300px;
+                    }
+                }
             }
         }
     } 
