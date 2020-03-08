@@ -246,172 +246,21 @@ header {
         height: 2px;
         background-color: #FF9B51;
         margin: 20px 0; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .basic-h {
-      font-family: 'Cinzel-Regular';
-      background-color: #333333;
-      padding: 10px 123px;
-      border-bottom: 1px solid white;
-      color: white;
-      margin: 0;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .basic-h:hover {
-        background-color: #FF9B51; }
-    .pricing-sect .pricing-box .pricing-div .basic-div h6 {
-      font-family: 'Cinzel-Regular';
-      background-color: #333333;
-      padding: 10px 125px;
-      border-bottom: 1px solid white;
-      color: white;
-      margin: 0;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div h6:hover {
-        background-color: #FF9B51; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .anoth-h {
-      padding: 10px 119px; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .price-p {
-      background-color: #333333;
-      padding: 10px 100px;
-      margin: 0;
-      color: white;
-      font-size: 30px;
-      border-bottom: 5px solid #FF9B51;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p .zero {
         color: white;
-        font-size: 70px; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p .free {
-        font-size: 15px;
-        color: grey;
         transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p:hover {
-        background-color: grey; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p:hover .free {
-        color: white; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth {
-      background-color: #333333;
-      padding: 10px 100px;
-      margin: 0;
-      color: white;
-      font-size: 30px;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .zero {
         color: white;
-        font-size: 70px; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth .free {
-        font-size: 15px;
-        color: grey;
         transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth:hover {
-        background-color: grey; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .price-p-anoth:hover .free {
-        color: white; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .add-p {
-      background-color: #FF9B51;
-      padding: 5px 91px;
-      color: white;
-      margin: 0;
-      font-size: 14px; }
-    .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div {
-      width: 100%;
-      border-bottom: 1px solid #F5F5F5;
-      display: flex;
-      background-color: white;
-      justify-content: center;
-      padding: 5px 0;
-      transition: all 0.2s ease 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div .basic-list {
-        font-family: 'Vidaloka-Regular';
-        margin: 0;
-        font-size: 13px;
-        color: grey;
         transition: all 0.2s ease 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div:hover {
-        background-color: #FF9B51; }
-      .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div:hover .basic-list {
-        color: white; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-h {
-      font-family: 'Cinzel-Regular';
-      background-color: #333333;
-      padding: 10px 123px;
-      border-bottom: 1px solid white;
-      color: white;
-      margin: 0;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-h:hover {
-        background-color: #FF9B51; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div h6 {
-      font-family: 'Cinzel-Regular';
-      background-color: #333333;
-      padding: 10px 125px;
-      border-bottom: 1px solid white;
-      color: white;
-      margin: 0;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div h6:hover {
-        background-color: #FF9B51; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .anoth-h {
-      padding: 10px 119px; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p {
-      background-color: #333333;
-      padding: 10px 100px;
-      margin: 0;
-      color: white;
-      font-size: 30px;
-      border-bottom: 5px solid #FF9B51;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p .zero {
         color: white;
-        font-size: 70px; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p .free {
-        font-size: 15px;
-        color: grey;
         transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p:hover {
-        background-color: grey; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p:hover .free {
-        color: white; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p-anoth {
-      background-color: #333333;
-      padding: 10px 100px;
-      margin: 0;
-      color: white;
-      font-size: 30px;
-      transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p-anoth .zero {
         color: white;
         font-size: 70px; }
       .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p-anoth .free {
         font-size: 15px;
         color: grey;
         transition: all 0.2s ease-in-out 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p-anoth:hover {
-        background-color: grey; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .price-p-anoth:hover .free {
-        color: white; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .add-p {
-      background-color: #FF9B51;
-      padding: 5px 91px;
-      color: white;
-      margin: 0;
-      font-size: 14px; }
-    .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-list-div {
-      width: 100%;
-      border-bottom: 1px solid #F5F5F5;
-      display: flex;
-      background-color: white;
-      justify-content: center;
-      padding: 5px 0;
-      transition: all 0.2s ease 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-list-div .basic-list {
-        font-family: 'Vidaloka-Regular';
         margin: 0;
-        font-size: 13px;
-        color: grey;
         transition: all 0.2s ease 0.2s; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-list-div:hover {
-        background-color: #FF9B51; }
-      .pricing-sect .pricing-box .pricing-div .sec-basic-div .basic-list-div:hover .basic-list {
-        color: white; }
 
 .costumer {
   padding: 100px 0; }
@@ -425,29 +274,6 @@ header {
       height: 2px;
       background-color: #FF9B51;
       margin: 20px 0; }
-  .costumer .container .costumer-box .costumer-div .costumer-text {
-    font-family: 'Vidaloka-Regular';
-    font-size: 14px;
-    clip-path: polygon(0% 0%, 100% 0%, 100% 84%, 21% 84%, 15% 96%, 9% 84%, 0 84%);
-    background-color: #F5F5F5;
-    padding: 50px;
-    padding-top: 25px;
-    color: grey;
-    transition: all 0.2s ease-in-out 0.2s; }
-    .costumer .container .costumer-box .costumer-div .costumer-text:hover {
-      background-color: #FF9B51;
-      color: white; }
-  .costumer .container .costumer-box .costumer-div .sircle-img {
-    clip-path: circle(50% at 50% 50%);
-    height: 100px;
-    transition: all 0.2s ease-in-out 0.2s; }
-    .costumer .container .costumer-box .costumer-div .sircle-img:hover {
-      height: 140px; }
-  .costumer .container .costumer-box .costumer-div .costumer-name {
-    font-size: 12px; }
-    .costumer .container .costumer-box .costumer-div .costumer-name .cost-name {
-      font-size: 20px;
-      color: black; }
 
 .stylish {
   padding: 100px 0;
@@ -540,31 +366,19 @@ footer {
     width: 400px; } }
 
 @media screen and (max-width: 768px) {
-  .bg .f-p {
     font-size: 25px; }
   .tab-artc-div .tab-p {
     width: 265px; }
   .sub-list-sect .container {
     flex-direction: column-reverse; }
-  .sub-list-sect .sub-list-div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px; }
-    .sub-list-sect .sub-list-div .sub-list-frs {
       display: flex;
       flex-direction: column;
       align-items: center; }
-  .standart .standart-article .standart-p {
-    width: 260px; }
-    .standart .standart-article .standart-p .ath-span {
-      display: none; }
   .awesome .new-d .object-div .design .object-p {
     width: 170px; }
   .pricing-sect .pricing-box .pricing-div {
     flex-direction: column; }
     .pricing-sect .pricing-box .pricing-div .basic-div {
-      margin-bottom: 20px; }
       .pricing-sect .pricing-box .pricing-div .basic-div .basic-list-div {
         width: 282px; }
     .pricing-sect .pricing-box .pricing-div .sec-basic-div {
@@ -580,4 +394,3 @@ footer {
   .contact .inp-box .input-form .last-input-box .input-column .last-input {
     width: 300px; }
   .contact .inp-box .input-form .last-input-box textarea {
-    width: 300px; } }
